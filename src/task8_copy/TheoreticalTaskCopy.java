@@ -6,9 +6,58 @@ package task8_copy;
  *
  * 2.Какие существуют альтернативы интерфейсу Cloneable для создания копий объектов,
  * и какие они могут быть полезны в более сложных сценариях клонирования?
-
  */
 public class TheoreticalTaskCopy {
+    static class Person implements Cloneable {
+        private final String name;
+        private String[] friends;
+        private int friendCount;
+
+        public Person(String name, int maxFriends) {
+            this.name = name;
+            this.friends = new String[maxFriends];
+            this.friendCount = 0;
+        }
+
+        public void addFriend(String friend) {
+            if (friendCount < friends.length) {
+                friends[friendCount] = friend;
+                friendCount++;
+            }
+        }
+
+        @Override
+        public Object clone() throws CloneNotSupportedException {
+            Person cloned = (Person) super.clone();
+            cloned.friends = new String[this.friends.length];
+            System.arraycopy(this.friends, 0, cloned.friends, 0, this.friends.length);
+            return cloned;
+        }
+
+        public void printFriends() {
+            System.out.print(name + "'s friends: ");
+            for (int i = 0; i < friendCount; i++) {
+                System.out.print(friends[i]);
+                if (i < friendCount - 1) {
+                    System.out.print(", ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) throws CloneNotSupportedException {
+        Person originalPerson = new Person("Alice", 3);
+        originalPerson.addFriend("Bob");
+        originalPerson.addFriend("Charlie");
+
+        Person clonedPerson = (Person) originalPerson.clone();
+        clonedPerson.addFriend("David");
+
+        originalPerson.printFriends();
+        clonedPerson.printFriends();
+    }
+}
 
 
 
@@ -43,4 +92,4 @@ public class TheoreticalTaskCopy {
      * Создание собственного метода копирования (copy() или cloneObject()).
      * Выбор альтернативы зависит от конкретных требований и структуры классов.
      */
-}
+
