@@ -27,15 +27,12 @@ public class TheoreticalTaskException {
                 System.out.println("Произошла ошибка");
             }
 
-    }
+
 
 
     /**
      *  Что выведет код?
      */
-
-    public class FileExample {
-        public static void main(String[] args) {
             FileWriter writer = null;
             try {
                 writer = new FileWriter("example.txt");
@@ -53,6 +50,7 @@ public class TheoreticalTaskException {
             }
         }
     }
+
 
 
 
@@ -111,4 +109,3 @@ public class TheoreticalTaskException {
      * она перехватывается в блоке catch. Затем блок finally закрывает файл, даже если были ошибки.
      */
 
-}

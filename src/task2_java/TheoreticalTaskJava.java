@@ -6,13 +6,13 @@ public class TheoreticalTaskJava {
      * Где будут храниться данные переменные при выполнении кода?
      */
 
-    class MemoryTest {
+
         public static void main(String[] args) {
             int x = 5;
             String str = "Hello";
             Object obj = new Object();
         }
-    }
+
 
     /**
      * Какие классы могут получить доступ к переменным ?
@@ -20,9 +20,9 @@ public class TheoreticalTaskJava {
      */
     class MemoryTest1 {
         public static void main(String[] args) {
-            int x = 5;
-            String str = "Hello";
-            Object obj = new Object();
+            int y = 5;
+            String string = "Hello";
+            Object object = new Object();
         }
     }
 
@@ -36,13 +36,13 @@ public class TheoreticalTaskJava {
      */
     public interface  A {
         default void doSomething() {
-            System.out.println("Метод в InterfaceA");
+            System.out.println("Метод в Interface A");
         }
     }
 
     public interface B extends  A {
         default void doSomething() {
-            System.out.println("Метод в InterfaceB");
+            System.out.println("Метод в Interface B");
         }
     }
 
