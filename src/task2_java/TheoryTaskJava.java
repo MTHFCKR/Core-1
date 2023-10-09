@@ -31,6 +31,25 @@ public class TheoryTaskJava {
      */
 
 
+    /**
+     * При вызове doSomething() будет использоваться метод из ?
+     */
+    public interface  A {
+        default void doSomething() {
+            System.out.println("Метод в InterfaceA");
+        }
+    }
+
+    public interface B extends  A {
+        default void doSomething() {
+            System.out.println("Метод в InterfaceB");
+        }
+    }
+
+    public class ClassA implements  A,  B {
+
+    }
+
 
 
 
