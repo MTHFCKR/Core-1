@@ -5,7 +5,7 @@ package task9_arrays;
  * подпоследовательность, в которой каждый следующий элемент больше
  * предыдущего на 1.
  */
-public class PracticeTaskArrays {
+public class PracticalTaskArrays {
 
 
 

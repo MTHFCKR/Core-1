@@ -12,7 +12,7 @@ import java.nio.file.Paths;
  * он используется в многопоточных приложениях и при загрузке ресурсов?
 
  */
-public class TheoryTaskLoaderAndHolder {
+public class TheoreticalTaskLoaderAndHolder {
     /**
      * Как работает этот класс?
      */

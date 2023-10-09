@@ -12,7 +12,7 @@ import java.io.IOException;
  включая использование библиотек для генерации исключений?
 
  */
-public class TheoryTaskException {
+public class TheoreticalTaskException {
 
     /**
      * Что выведет код?

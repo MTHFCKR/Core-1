@@ -5,7 +5,7 @@ package task2_java;
  * Создайте массив с максимальным значением , что произойдет в данном случае ,
  *             проверьте себя запустив программу
  */
-public class PracticeTaskJava {
+public class PracticalTaskJava {
 
 
 }

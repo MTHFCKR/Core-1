@@ -5,7 +5,7 @@ package task5_procedural;
  *        и инструменты помогают улучшать архитектуру и читаемость кода?
  *       2.Что такое "перегрузка операторов" (operator overloading) ?
  */
-public class TheoryTaskProcedural {
+public class TheoreticalTaskProcedural {
 
     /**
      * Что выведет код?

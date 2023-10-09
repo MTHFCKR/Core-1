@@ -8,7 +8,7 @@ package task9_arrays;
  * для решения сложных задач?
 
  */
-public class TheoryTaskArrays {
+public class TheoreticalTaskArrays {
     /**
      * Что выведет код?
      */

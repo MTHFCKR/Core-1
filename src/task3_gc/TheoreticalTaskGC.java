@@ -10,7 +10,7 @@ package task3_gc;
  *
  * 4.Что такое "горячая точка" (hot spot) в сборке мусора и какие методы можно использовать для ее выявления и оптимизации?
  */
-public class TheoryTaskGC {
+public class TheoreticalTaskGC {
 
 
 

@@ -3,7 +3,7 @@ package task10_loaderandholder;
 /**
  * Напишите собственный Classloader .
  */
-public class PracticeTaskLoaderAndHolder {
+public class PracticalTaskLoaderAndHolder {
 
 
 

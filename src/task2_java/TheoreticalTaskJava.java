@@ -1,6 +1,6 @@
 package task2_java;
 
-public class TheoryTaskJava {
+public class TheoreticalTaskJava {
 
     /**
      * Где будут храниться данные переменные при выполнении кода?

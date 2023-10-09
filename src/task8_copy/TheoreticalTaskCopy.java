@@ -8,7 +8,7 @@ package task8_copy;
  * и какие они могут быть полезны в более сложных сценариях клонирования?
 
  */
-public class TheoryTaskCopy {
+public class TheoreticalTaskCopy {
 
 
 

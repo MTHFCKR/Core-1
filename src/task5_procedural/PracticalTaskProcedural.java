@@ -1,10 +1,9 @@
 package task5_procedural;
-import java.util.Scanner;
 
 /**
  * Напишите программу, которая принимает целое число с клавиатуры и выводит его квадрат.
  */
-public class PracticeTaskProcedural {
+public class PracticalTaskProcedural {
 
 
 

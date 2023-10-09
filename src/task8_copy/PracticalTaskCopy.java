@@ -3,7 +3,7 @@ package task8_copy;
 /**
  * Напишите пример глубокого копирования.
  */
-public class PracticeTaskCopy {
+public class PracticalTaskCopy {
 
 
 

@@ -6,7 +6,7 @@ package task4_types;
  * 2. Что такое "преобразование типов с потерей данных" (narrowing conversion) и "преобразование типов без потери данных
  *       "(widening conversion) при работе с примитивными типами данных, и какие они могут быть опасными?
  */
-public class TheoryTaskTypes {
+public class TheoreticalTaskTypes {
 
     public static void main(String[] args) {
         /**

@@ -5,5 +5,5 @@ package task4_types;
  * ли заданная подстрока в данной строке.
  */
 
-public class PracticeTaskTypes {
+public class PracticalTaskTypes {
 }

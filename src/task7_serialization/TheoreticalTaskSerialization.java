@@ -12,7 +12,7 @@ import java.io.Serializable;
  *
  * 3. В каких случаях класс не сериализуется ?
  */
-public class TheoryTaskSerialization {
+public class TheoreticalTaskSerialization {
 
     /**
      * Сериализуется ли класс ниже?
